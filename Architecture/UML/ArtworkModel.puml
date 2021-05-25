@@ -1,0 +1,74 @@
+﻿@startuml
+'https://plantuml.com/class-diagram
+
+hide empty members
+
+
+class Artwork {
+    Size
+    Layers
+    Palette
+    FontFamily
+}
+
+class Layer {
+    Size
+    Position
+    Content
+    Modes
+    Locks
+}
+
+enum BlendingMode {
+    None
+    Character
+    Foreground
+    Background
+}
+
+enum LayerLocks {
+    None
+    Character
+    Transparency
+    Foreground
+    Background
+}
+
+class FontFamily {
+    Name
+    Fonts
+    Resolutions
+    DefaultFont
+    AlphaIndex
+}
+
+class Font {
+    Name
+    Resolution
+    AspectRatio
+    CharacterSize
+    TextureSize
+    Texture
+}
+
+class Palette {
+    Size
+    Colors
+}
+
+class Swatch {
+    CharIndex
+    ForeIndex
+    BackIndex
+}
+
+Artwork o-right- Layer
+Artwork o-left- Palette
+Artwork o-- FontFamily
+Layer o-right- Swatch
+FontFamily o-- Font
+
+Layer -[hidden]down- BlendingMode
+BlendingMode -[hidden]down- LayerLocks
+
+@enduml

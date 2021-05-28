@@ -60,3 +60,7 @@ ASCII art is an art medium that lacks proper tooling for efficient workflows. Pr
 - A 'Cell' tool, which smartly paints box-drawing characters
 - A 'Paintbrush' tool that allows the user to use a Brush to paint with
 - A 'Line' tool that allows users to draw straight lines
+
+## Actions
+
+- Paint (store delta of changed cells)

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CursePaint {
+namespace ViewModel {
 
     internal class Program {
 

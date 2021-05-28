@@ -1,9 +1,8 @@
-﻿<Application x:Class="WpfView.App"
+﻿<Application x:Class="CursePaint.WpfView.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:WpfView"
              StartupUri="Controls/AppWindow.xaml">
     <Application.Resources>
-         
+
     </Application.Resources>
 </Application>

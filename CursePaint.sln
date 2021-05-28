@@ -2,13 +2,13 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursePaint", "CursePaint\CursePaint.csproj", "{96F10339-6734-4E16-AB6C-AB89B5D5AC77}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gui", "Gui", "{A014FE01-ADB1-4239-A52D-526AEE709799}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfView", "Gui\WpfView\WpfView.csproj", "{E13C5D14-6180-4F5D-ADB0-E38DDA9A58EC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "Gui\ViewModel\ViewModel.csproj", "{5A5C730D-2052-4041-9448-3AC5793AFB54}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursePaint.Shared", "CursePaint.Shared\CursePaint.Shared.csproj", "{71DC833C-2E69-4A5B-9EBE-1688D4760CF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursePaint.ViewModel", "CursePaint.ViewModel\CursePaint.ViewModel.csproj", "{71D9D3FC-D9FF-4AF6-9617-8FBDAD0FEA78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursePaint.WpfView", "CursePaint.WpfView\CursePaint.WpfView.csproj", "{6AD8C249-0098-4630-8B1D-186EB3DC5E42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursePaint.Tests", "CursePaint.Tests\CursePaint.Tests.csproj", "{D4AE1B61-524F-40AE-B64A-CE899A9EC9D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,21 +20,23 @@ Global
 		{96F10339-6734-4E16-AB6C-AB89B5D5AC77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96F10339-6734-4E16-AB6C-AB89B5D5AC77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96F10339-6734-4E16-AB6C-AB89B5D5AC77}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E13C5D14-6180-4F5D-ADB0-E38DDA9A58EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E13C5D14-6180-4F5D-ADB0-E38DDA9A58EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E13C5D14-6180-4F5D-ADB0-E38DDA9A58EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E13C5D14-6180-4F5D-ADB0-E38DDA9A58EC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5A5C730D-2052-4041-9448-3AC5793AFB54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5A5C730D-2052-4041-9448-3AC5793AFB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5A5C730D-2052-4041-9448-3AC5793AFB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5A5C730D-2052-4041-9448-3AC5793AFB54}.Release|Any CPU.Build.0 = Release|Any CPU
 		{71DC833C-2E69-4A5B-9EBE-1688D4760CF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{71DC833C-2E69-4A5B-9EBE-1688D4760CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71DC833C-2E69-4A5B-9EBE-1688D4760CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71DC833C-2E69-4A5B-9EBE-1688D4760CF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D9D3FC-D9FF-4AF6-9617-8FBDAD0FEA78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D9D3FC-D9FF-4AF6-9617-8FBDAD0FEA78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D9D3FC-D9FF-4AF6-9617-8FBDAD0FEA78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D9D3FC-D9FF-4AF6-9617-8FBDAD0FEA78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD8C249-0098-4630-8B1D-186EB3DC5E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD8C249-0098-4630-8B1D-186EB3DC5E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD8C249-0098-4630-8B1D-186EB3DC5E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD8C249-0098-4630-8B1D-186EB3DC5E42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4AE1B61-524F-40AE-B64A-CE899A9EC9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4AE1B61-524F-40AE-B64A-CE899A9EC9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4AE1B61-524F-40AE-B64A-CE899A9EC9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4AE1B61-524F-40AE-B64A-CE899A9EC9D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{E13C5D14-6180-4F5D-ADB0-E38DDA9A58EC} = {A014FE01-ADB1-4239-A52D-526AEE709799}
-		{5A5C730D-2052-4041-9448-3AC5793AFB54} = {A014FE01-ADB1-4239-A52D-526AEE709799}
 	EndGlobalSection
 EndGlobal

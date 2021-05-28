@@ -1,7 +1,5 @@
-﻿namespace CursePaint
-{
-    public class Renderer
-    {
-        
-    }
+﻿namespace CursePaint {
+
+    public class Renderer { }
+
 }

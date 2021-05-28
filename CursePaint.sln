@@ -1,14 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursePaint", "CursePaint\CursePaint.csproj", "{96F10339-6734-4E16-AB6C-AB89B5D5AC77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consort", "Consort\Consort.csproj", "{96F10339-6734-4E16-AB6C-AB89B5D5AC77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursePaint.Shared", "CursePaint.Shared\CursePaint.Shared.csproj", "{71DC833C-2E69-4A5B-9EBE-1688D4760CF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consort.Shared", "Consort.Shared\Consort.Shared.csproj", "{71DC833C-2E69-4A5B-9EBE-1688D4760CF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursePaint.ViewModel", "CursePaint.ViewModel\CursePaint.ViewModel.csproj", "{71D9D3FC-D9FF-4AF6-9617-8FBDAD0FEA78}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consort.ViewModel", "Consort.ViewModel\Consort.ViewModel.csproj", "{71D9D3FC-D9FF-4AF6-9617-8FBDAD0FEA78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursePaint.WpfView", "CursePaint.WpfView\CursePaint.WpfView.csproj", "{6AD8C249-0098-4630-8B1D-186EB3DC5E42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consort.WpfView", "Consort.WpfView\Consort.WpfView.csproj", "{6AD8C249-0098-4630-8B1D-186EB3DC5E42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursePaint.Tests", "CursePaint.Tests\CursePaint.Tests.csproj", "{D4AE1B61-524F-40AE-B64A-CE899A9EC9D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consort.Tests", "Consort.Tests\Consort.Tests.csproj", "{D4AE1B61-524F-40AE-B64A-CE899A9EC9D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
